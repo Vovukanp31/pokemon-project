@@ -1,0 +1,5 @@
+.pokemonsCarousel {
+    display: flex;
+    justify-content: center;
+    column-gap: 5vw
+}

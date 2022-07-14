@@ -1,0 +1,10 @@
+.pokemonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    row-gap: 4vh;
+    flex-wrap: wrap;
+    padding: 2vh 2vw;
+    background-color: #D53F27;
+}

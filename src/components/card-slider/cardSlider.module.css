@@ -1,0 +1,58 @@
+.cardSliderContainer {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.cardSliderHeader {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+    position: absolute;
+    font-size: 4rem;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    display: none;
+}
+
+.slide.active {
+    flex: 10;
+}
+
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 300ms ease-in 0.4s;
+    display: inline;
+}
+
+.slide.active a {
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.41);
+    border-radius: 5px;
+    color: white;
+    padding: 0.5rem;
+}
+
+.slide.active a:hover {
+    background-color: white;
+    color: black;
+}

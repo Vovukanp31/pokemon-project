@@ -1,0 +1,47 @@
+.pokeCard img {
+    height: 30%;
+    padding: 5px;
+    border: 2px white solid;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.pokeCard{
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.41);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.41);
+}
+
+.pokeCardTitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsButton {
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    background-color: #b9b9b9;
+}
+
+.detailsButton:hover {
+    background-color: #D53F27;
+    color: white;
+}
+
+.titleOfPokemon {
+    font-weight: bold;
+}
